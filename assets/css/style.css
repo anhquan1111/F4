@@ -2,11 +2,12 @@
 .header {
     background-color: white;
     padding: 25px 0;
-    position: fixed;
+    position: sticky; 
     top: 0;
     left: 0;
     z-index: 100;
     width: 100%;
+    overflow: hidden;
     box-shadow: 0 0 30px 10px rgba(0, 0, 0, 0.1);
 }
 
@@ -63,6 +64,7 @@
         margin-right: 20px;
     }
 }
+
 
 /* END HEADER  */
 /* SECTION1 */
@@ -148,7 +150,6 @@
         font-size: 15px;
     }
 }
-
 /* END SECTION1 */
 /* SECTION2 */
 .section2 {
@@ -1441,11 +1442,6 @@
         height:1320px;
     }
 }
-@media (max-width:576.98px){
-    .section7 .box-web{
-        height:1300px;
-    }
-}
 /* END SECTION7 */
 /* SECTION8  */
 .section8{
@@ -1577,6 +1573,11 @@
         transform:scale(1);
     }
 }
+@media(max-width:576.98px){
+    .section8 .inner-head .tieude{
+        font-size: 20px;
+    }
+}
 /* END SECTION8 */
 /* SECTION9 */
 .section9 {
@@ -1657,6 +1658,20 @@
     .section9 .box-head{
         margin-bottom:30px;
     }    
+}
+@media (max-width:576.98px){
+    .section9 .box-head .tieude{
+        font-size: 20px;
+    }
+    .section9 .box-head .phude{
+        font-size: 15px;
+    }
+    .section9 .box-body .tieude{
+        font-size: 15px;
+    }
+    .section9 .box-body .card-body{
+        font-size: 12px;
+    }
 }
 /* END SECTION9 */
 /* SECTION10 */
@@ -1779,6 +1794,11 @@
 @media (max-width:1199.98px){
     .section10 .box .img{
         width:50%;
+    }
+}
+@media(max-width:576.98px){
+    .section10 .inner-head .tieude{
+        font-size: 20px;
     }
 }
 /* END SECTION10 */
@@ -1921,6 +1941,12 @@
         margin-top:30px;
     }
 }
+@media(max-width:576.98px){
+    .section12 .inner-head .tieude{
+        font-size: 20px;
+    }
+
+}
 /* END SECTION12 */
 /* SECTION13 */
 .section13{
@@ -1999,7 +2025,12 @@
 }
 @media (max-width:767.98px){
     .section13 .thu{
-        padding:0;
+        /* padding:0; */
+    }
+}
+@media(max-width:576.98px){
+    .section13 .inner-head .tieude{
+        font-size: 20px;
     }
 }
 /* END SECTION13 */
@@ -2084,6 +2115,14 @@
     }
     .footer .box-head .box-head-tmp{
         justify-content: center;
+    }
+}
+@media(max-width:576.98px){
+    .footer .box-head .tieude{
+        font-size: 20px;
+    }
+    .footer .box-head .phude{
+        font-size: 12px;
     }
 }
 /* END FOOTER  */
