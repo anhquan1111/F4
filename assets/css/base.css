@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+:root{
+    --color-do: #E84848;
+    --color-text: #32353A;
+    --color-bg-1:#F4F4F4;
+    --font-lon: "Montserrat", sans-serif;
+    --font-nho: "Open Sans", sans-serif;
+}
+*{
+    box-sizing:border-box;
+    font-family:var(--font-nho);
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+}
+.lon{
+    font-family: var(--font-lon);
+}
+.button{
+    display: inline-block;
+    padding:8px 25px;
+    font-size: 16px;
+}
+.button-do{
+    background-color: var(--color-do);
+    color:white;
+    transition:0.3s;
+    border-radius: 5px;
+    /* display:inline-block; */
+}
+.button-do:hover{
+    background-color: #EA5757;
+}
+.button-trang{
+    background-color: white;
+    border: 1px solid var(--color-text);
+    color:var(--color-text);
+    transition:0.3s;
+    border-radius: 45px;
+}
+.button-trang:hover{
+    background-color: #EA5757;
+    border:1px solid #fff;
+    color:white;
+}
+.button-trongsuot{
+    background-color: transparent;
+    color:white;
+    border:1px solid white;
+    border-radius: 5px;
+}
+.button-trongsuot:hover{
+    background-color: var(--color-do);
+    border:1px solid var(--color-do);
+}
+@media (min-width: 1400px) {
+    .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+        max-width: 1320px;
+    }
+}
